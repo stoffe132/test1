@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Centered Hello</title>
+    <style>
+        /* Remove default margins and fill the whole screen */
+        html, body {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            width: 100%;
+        }
+
+        /* Use Flexbox to align content perfectly in the center */
+        body {
+            display: flex;
+            justify-content: center; /* Horizontally center */
+            align-items: center;     /* Vertically center */
+            background-color: #f0f2f5; /* Optional background color */
+            font-family: Arial, sans-serif;
+        }
+
+        /* Style for the word */
+        .centered-text {
+            font-size: 4rem;      /* Make the word large */
+            font-weight: bold;
+            color: #333333;
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+
+    <h1 class="centered-text">Hello</h1>
+
+</body>
+</html>
